@@ -5,5 +5,5 @@
 3. getting lists of work hours for each worker
 4. write new csv file
 
-output.csv
-![alt text](https://imgur.com/a/TfyO3Z7 = 250x)
+
+![alt text](https://i.imgur.com/dFbjHO5.jpg =250x)

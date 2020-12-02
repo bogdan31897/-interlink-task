@@ -31,7 +31,7 @@ firstLine.append('Name / Date')
 
 #1 - open csv file
 with open('acme_worksheet.csv') as inputfile:
-	reader = csv.DictReader(output.csv, delimiter  = ',')
+	reader = csv.DictReader(inputfile, delimiter  = ',')
 	for row in reader:
 		lines.append(row)
 
@@ -43,6 +43,9 @@ for line in lines:
 		firstLine.append(correctDate(mounths, line['Date'])) #2.1 - Filling firstline with date
 	if line['Employee Name'] not in workers:
 		workers.append(line['Employee Name'])
+
+
+workers.sort()
 
 #add firstline in writelines
 writeLines.append(firstLine)
@@ -66,7 +69,7 @@ for worker in workers:
 	writeLines.append(workerWorkHours) #add workhours to writelines
 
 #4 write new csv file
-with open('new.csv', "w", newline="") as file: 
+with open('output.csv', "w", newline="") as file: 
     writer = csv.writer(file)
     writer.writerows(writeLines)
 

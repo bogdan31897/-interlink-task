@@ -6,4 +6,4 @@
 4. write new csv file
 
 output.csv
-![alt text](https://imgur.com/a/TfyO3Z7)
+![alt text](https://imgur.com/a/TfyO3Z7 = 250x)

@@ -6,4 +6,3 @@
 4. write new csv file
 
 
-![](https://imgur.com/a/TfyO3Z7 | width = 25)
